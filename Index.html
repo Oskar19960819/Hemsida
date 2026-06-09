@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ÄNDRA -->
+    <title>Emma Elfström|Hållbarhetskonsult</title>
+
+    <meta name="description" content="Hjälper företag med dataanalys, automation och digital utveckling.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts (valfritt) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+    <header>
+        <nav class="container">
+            <h2>Emma Elfström</h2>
+
+            <ul>
+                <li><a href="#about">Om mig</a></li>
+                <li><a href="#services">Tjänster</a></li>
+                <li><a href="#cases">Case</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero">
+        <div class="container"> 
+
+            <!-- Lägg din bild i images/profile.jpg -->
+            <img src="images/profile.jpg" alt="Profilbild">
+
+            <h1>Jag hjälper företag med hållbarhet</h1>
+
+            <p>
+                Konsult inom hållbarhet.
+            </p>
+
+            <a href="#contact" class="btn">
+                Kontakta mig
+            </a>
+
+        </div>
+    </section>
+
+    <!-- =========================
+         OM MIG
+    ========================== -->
+    <section id="about" class="section">
+        <div class="container">
+
+            <h2>Om mig</h2>
+
+            <p>
+               Jag har triggerfinger! 
+            </p>
+
+        </div>
+    </section>
+
+    <!-- =========================
+         TJÄNSTER
+    ========================== -->
+    <section id="services" class="section alt">
+
+        <div class="container">
+
+            <h2>Tjänster</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>ISO certifiering</h3>
+                    <p>
+                        Gör er redo att klara revisionen
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Rapportering</h3>
+                    <p>
+                        Lägg all tråkig rapportering på mig.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Rådgivning</h3>
+                    <p>
+                        Behöver ni bara tips? Ta en kaffe
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         CASE
+    ========================== -->
+    <section id="cases" class="section">
+
+        <div class="container">
+
+            <h2>Utvalda case</h2>
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <!-- Lägg till bild -->
+                    <img src="images/case1.jpeg" alt="Case 1">
+
+                    <h3>Case 1</h3>
+
+                    <p>
+                        Kort beskrivning av kundens problem.
+                    </p>
+
+                    <p>
+                        <strong>Resultat:</strong>
+                        Sparade 20 timmar per vecka.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="images/case2.jpeg" alt="Case 2">
+
+                    <h3>Case 2</h3>
+
+                    <p>
+                        Beskrivning av lösningen.
+                    </p>
+
+                    <p>
+                        <strong>Resultat:</strong>
+                        30% snabbare rapportering.
+                    </p>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="images/case3.avif" alt="Case 3">
+
+                    <h3>Case 3</h3>
+
+                    <p>
+                        Beskrivning av projektet.
+                    </p>
+
+                    <p>
+                        <strong>Resultat:</strong>
+                        Förbättrad nöjdhet
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         KONTAKT
+    ========================== -->
+    <section id="contact" class="section alt">
+
+        <div class="container">
+    
+            <div class="contact-grid">
+    
+                <!-- VÄNSTER: Kontaktinfo -->
+                <div class="contact-info">
+    
+                    <h3>Låt oss prata</h3>
+    
+                    <p>
+                        Jag tar gärna ett kort möte för att se hur jag kan hjälpa er.
+                    </p>
+    
+                    <p>
+                        <strong>Email:</strong><br>
+                        <a href="mailto:emma.elfstrom@gmail.com">
+                            emma.elfstrom@gmail.com
+                        </a>
+                    </p>
+    
+                    <p>
+                        <strong>LinkedIn:</strong><br>
+                        <a href="https://www.linkedin.com/in/emma-elfstr%C3%B6m-74b931179/">
+                            Emma Elfström
+                        </a>
+                    </p>
+    
+                    <p>
+                        Svarstid: vanligtvis inom 24 timmar
+                    </p>
+    
+                </div>
+    
+                <!-- HÖGER: Formulär -->
+                <form class="contact-form"
+                      action="https://formspree.io/f/XXXXX"
+                      method="POST">
+    
+                    <label>
+                        Namn
+                        <input type="text" name="name" required>
+                    </label>
+    
+                    <label>
+                        E-post
+                        <input type="email" name="email" required>
+                    </label>
+    
+                    <label>
+                        Meddelande
+                        <textarea name="message" rows="6"></textarea>
+                    </label>
+    
+                    <button type="submit">
+                        Skicka meddelande
+                    </button>
+    
+                </form>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+
+    <footer>
+        <div class="container">
+            © 2026 Emma Elfström
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
