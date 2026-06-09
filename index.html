@@ -12,6 +12,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 
+    <!-- Calendly -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
     <!-- Google Fonts (valfritt) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -217,31 +221,19 @@
     
                 </div>
     
-                <!-- HÖGER: Formulär -->
-                <form class="contact-form"
-                      action="https://formspree.io/f/XXXXX"
-                      method="POST">
-    
-                    <label>
-                        Namn
-                        <input type="text" name="name" required>
-                    </label>
-    
-                    <label>
-                        E-post
-                        <input type="email" name="email" required>
-                    </label>
-    
-                    <label>
-                        Meddelande
-                        <textarea name="message" rows="6"></textarea>
-                    </label>
-    
-                    <button type="submit">
-                        Skicka meddelande
+                <div class="contact-booking">
+
+                    <h3>Boka ett kostnadsfritt introduktionsmöte</h3>
+                
+                    <p>
+                        Välj en tid som passar dig direkt i min kalender.
+                    </p>
+                
+                    <button class="btn" onclick="openCalendly()">
+                        Boka möte
                     </button>
-    
-                </form>
+                
+                </div>
     
             </div>
     

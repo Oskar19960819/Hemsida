@@ -18,3 +18,11 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     });
 
 });
+
+function openCalendly() {
+    Calendly.initPopupWidget({
+        url: 'https://calendly.com/elfstrom-oskar/new-meeting'
+    });
+
+    return false;
+};
