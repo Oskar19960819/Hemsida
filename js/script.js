@@ -22,7 +22,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 // Calendly Implementation
 function openCalendly() {
     Calendly.initPopupWidget({
-        url: 'https://calendly.com/elfstrom-oskar/new-meeting'
+        url: 'https://calendly.com/emmaelfstrom0/30min'
     });
 
     return false;
