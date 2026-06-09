@@ -1,4 +1,4 @@
-// Exempel på smooth scroll
+// Smooth Scroll
 
 document.querySelectorAll('a[href^="#"]').forEach(link => {
 
@@ -19,6 +19,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 
 });
 
+// Calendly Implementation
 function openCalendly() {
     Calendly.initPopupWidget({
         url: 'https://calendly.com/elfstrom-oskar/new-meeting'
