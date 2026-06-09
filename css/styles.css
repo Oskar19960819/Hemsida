@@ -20,6 +20,7 @@ header {
     position: sticky;
     top: 0;
     background: white;
+    z-index: 1000;
     border-bottom: 1px solid #eee;
 }
 
@@ -251,3 +252,4 @@ footer {
 .client-logos img:hover {
     opacity: 0.8;
 }
+
