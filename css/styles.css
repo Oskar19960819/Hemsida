@@ -217,3 +217,37 @@ footer {
     font-weight: 600;
     color: #6b7280;
 }
+
+/* ==========================
+   KUNDVÄGG
+========================== */
+
+.section-title-center {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.client-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 40px;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.client-logos img {
+    max-width: 140px;
+    max-height: 70px;
+
+    width: 100%;
+    height: auto;
+
+    object-fit: contain;
+
+    transition: opacity 0.2s ease;
+}
+
+.client-logos img:hover {
+    opacity: 0.8;
+}
