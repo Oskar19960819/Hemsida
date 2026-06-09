@@ -192,3 +192,28 @@ footer {
         gap: 40px;
     }
 }
+
+/* ==========================
+   Testimonials
+========================== */
+
+.testimonial {
+    position: relative;
+}
+
+
+.testimonial {
+    text-align: left;
+}
+
+.quote {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-weight: 600;
+    color: #6b7280;
+}
